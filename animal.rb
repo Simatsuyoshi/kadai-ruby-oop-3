@@ -1,14 +1,10 @@
 class Animal
 
- attr_accessor :type, :age
+ attr_accessor :name, :age
  
- def initialize(type,age)
-   self.type = type
+ def initialize(name,age)
+   self.name = name
    self.age = age
- end
- 
- def name
-   self.type
  end
  
  def say

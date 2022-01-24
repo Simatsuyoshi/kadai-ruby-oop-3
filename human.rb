@@ -7,15 +7,11 @@ class Human < Animal
   
   attr_accessor :syumi
   
-  def initialize(type,age,syumi)
+  def initialize(name,age,syumi)
   
-   super(type,age)
+   super(name,age)
    self.syumi = syumi
    
-  end
-  
-  def name
-   self.type
   end
   
 end
